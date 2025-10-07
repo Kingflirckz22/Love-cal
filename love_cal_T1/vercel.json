@@ -1,8 +1,0 @@
-{
-  "builds": [
-    { "src": "lovecal.html", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/lovecal.html" }
-  ]
-}
